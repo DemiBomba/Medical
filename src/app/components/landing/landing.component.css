@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=El+Messiri&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'El Messiri', sans-serif;
+    font-weight:700;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Cairo', sans-serif;
+}
+
+.stardard-cards-bigtxt{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+}
+
+
+.list-item-heading{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+}
+
+.two-columns-list li{
+    list-style: none;
+}
+
+.heading{
+    color: white;
+    background-color: rgb(32, 93, 223);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.headerbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.headerbar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #07648d;
+    
+}
+
+.bannerimg{
+    max-width: 100%;
+    padding: 2em;
+}
+
+.bannerimg img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.standards{
+    margin-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+
+.standard-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .desc{
+    padding: 2px 16px;
+  }
+
+.explore-section{
+    margin-top: 200px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    background-color: rgb(213, 213, 213);   
+}
+
+.two-columns-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px 15px;
+        grid-auto-flow: row;
+}
+
+
+.tail{
+    margin-top: 25px;
+    color: white;
+    background-color: rgb(32, 93, 223);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
